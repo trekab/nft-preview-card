@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nft-card {
+  width: 327px;
+  height: 543px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero {
+  width: 278px;
+  height: 278px;
+  border-radius: 8px;
+  margin: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading {
+  margin: 0 24px;
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27.72px;
+}
+
+.summary {
+  margin: 14px 24px;
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.tags {
+  margin: 14px 24px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.tag-value {
+  color: #00fff8;
+  font-weight: 600;
+}
+
+.tag-time {
+  color: #8bacd9;
+  font-weight: 400;
+}
+
+.tags div {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 18.9px;
+}
+
+.tags img {
+  margin-right: 6.5px;
+}
+
+.hr {
+  border: 1px solid #2e405a;
+  width: 278px;
+}
+
+.user-details {
+  margin: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 33px;
+  width: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.details {
+  font-size: 15px;
+  font-weight: 400;
+  color: #8bacd9;
+  line-height: 18.9px;
+  margin-left: 14px;
+}
+
+.details span {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
