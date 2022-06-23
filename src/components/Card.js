@@ -7,6 +7,7 @@ import avatar from "../images/image-avatar.png";
 const Card = () => {
   return (
     <div className="nft-card">
+      <div className="overlay"></div>
       <img className="hero" src={nft} alt="equilibrium" />
       <h1 className="heading">Equilibrium #3429</h1>
       <p className="summary">

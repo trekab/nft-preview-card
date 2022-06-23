@@ -23,12 +23,33 @@ body {
   margin: 24px;
 }
 
+.overlay {
+  width: 278px;
+  height: 278px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 8px;
+}
+
+.overlay:hover {
+  background-image: url("./images/icon-view.svg");
+  background-color: #00fff783;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .heading {
   margin: 0 24px;
   color: hsl(0, 0%, 100%);
   font-size: 22px;
   font-weight: 600;
   line-height: 27.72px;
+}
+
+.heading:hover {
+  color: #00fff8;
+  cursor: pointer;
 }
 
 .summary {
@@ -95,4 +116,9 @@ body {
 
 .details span {
   color: white;
+}
+
+.details span:hover {
+  color: #00fff8;
+  cursor: pointer;
 }
