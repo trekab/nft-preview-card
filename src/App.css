@@ -37,6 +37,7 @@ body {
   background-color: #00fff783;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .heading {
@@ -45,6 +46,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   line-height: 27.72px;
+  display: inline-block;
 }
 
 .heading:hover {
@@ -121,4 +123,31 @@ body {
 .details span:hover {
   color: #00fff8;
   cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .nft-card {
+    width: 350px;
+    height: 596px;
+  }
+
+  .hero,
+  .overlay {
+    width: 302px;
+    height: 302px;
+  }
+
+  .hr {
+    width: 302px;
+  }
+
+  .tags {
+    margin: 24px 24px;
+  }
+
+  .tags div,
+  .details {
+    font-size: 16px;
+    line-height: 20.16px;
+  }
 }
