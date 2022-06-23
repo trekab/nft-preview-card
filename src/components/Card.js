@@ -16,7 +16,7 @@ const Card = () => {
       <div className="tags">
         <div>
           <img src={ethereum} alt="ethereum" />
-          <span className="tag-value">0.41ETH</span>
+          <span className="tag-value">0.041ETH</span>
         </div>
         <div>
           <img src={clock} alt="clock" />
